@@ -1,0 +1,23 @@
+.containerInputSearch {
+  display: flex;
+  flex-direction: column;
+}
+.inputSearch {
+  padding: 1.2rem;
+  border: none;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  font-size: 12px;
+  background: url(/lupa-cinza.png) no-repeat scroll 20px 18px;
+  background-size: 16px 16px;
+  padding-left: 50px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px rgb(198, 198, 198);
+}
+.inputSearch::placeholder {
+  color: var(--gray-400);
+  text-transform: uppercase;
+}
+.inputSearch:focus-visible {
+  border: none !important;
+}

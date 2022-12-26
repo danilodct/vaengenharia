@@ -1,0 +1,25 @@
+.header {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-600);
+  color: green;
+}
+
+.cashIcon {
+  margin-right: 1rem;
+}
+
+.areaBts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.areaContributionTable {
+  margin-top: 2rem;
+}
+
+.total {
+  display: flex;
+}

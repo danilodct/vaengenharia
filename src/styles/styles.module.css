@@ -1,0 +1,32 @@
+.containerLogin {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.loginArea {
+  width: 350px;
+  max-height: 600px;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginHeader {
+  padding: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.loginBody {
+  padding: 0 3rem;
+}
+
+
+.loginFooter {
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+}

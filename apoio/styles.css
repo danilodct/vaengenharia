@@ -1,0 +1,180 @@
+body {
+  background-color: #51c3d8 !important;
+  font-size: 12px;
+}
+
+body,
+a,
+.form-control,
+* {
+  font-family: "ABeeZee", sans-serif !important;
+  color: #88898a !important;
+}
+
+a {
+  font-size: 0.9em !important;
+  text-decoration: none !important;
+}
+
+.logo-container {
+  background-color: #e1e1e1; /*#4d97cc;*/
+}
+
+.header-fixed-height {
+  height: 70px !important;
+}
+
+.bg-meu-azul {
+  background-color: #08365b !important;
+}
+.left-area {
+  background-color: #08365b;
+  min-height: 400px;
+}
+.left-area a {
+  color: #e1e1e1 !important;
+  border-left: 5px solid transparent !important;
+  font-size: 13px !important;
+}
+.left-area a:hover {
+  border-left-color: #4e98ce !important;
+  background-color: #154870 !important;
+}
+.left-area .link-icon {
+  padding-left: 55px !important;
+  background: transparent url("../img/icon-lupa.png") no-repeat 20px center !important;
+}
+
+.logged-area div {
+  font-size: 0.9em !important;
+}
+
+.header-area {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.work-area {
+  background-color: #f8f8f8;
+}
+
+#searchGeneral {
+  padding-left: 55px !important;
+  background: transparent url("../img/icon-lupa-cinza.png") no-repeat 20px
+    center !important;
+  background-color: white !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(186, 185, 185) !important;
+  opacity: 1 !important; /* Firefox */
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(186, 185, 185) !important;
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(186, 185, 185) !important;
+  font-size: 14px;
+}
+
+.commands-area a {
+  font-size: 0.9em !important;
+}
+.commands-area a:hover,
+.commands-area a.actived {
+  background-color: #4d97cc;
+  color: white !important;
+}
+
+.bt-novo {
+  background-color: #4d97cc !important;
+}
+
+table td {
+  padding: 20px !important;
+}
+
+table thead td {
+  text-transform: uppercase;
+  color: #08365b !important;
+  font-weight: 700 !important ;
+}
+
+.modal-header {
+  background-color: #51c3d8;
+}
+
+.modal-title {
+  text-transform: uppercase !important;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff !important;
+}
+
+.modal-footer .btn-primary {
+  background-color: #4d97cc !important;
+  color: white !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #bababa !important;
+  color: white !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.modal-body .form-control {
+  padding: 10px !important;
+  font-size: 12px !important;
+}
+
+.login-area{
+  /* Must manually set width/height*/ 
+  width:400px;
+  height:500px;
+
+  /* The magic centering code */
+  margin:auto;
+  position:absolute;
+  top:0;bottom:0; /* Aligns Vertically - Remove for Horizontal Only */
+  left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
+
+  /* Prevent div from overflowing main window */
+  max-width:75%;
+  max-height:75%;
+  overflow:auto;
+}
+
+.login-area .header {
+  font-family: "Ultra", serif !important;
+  font-size: 20px;
+}
+
+.login-area button {
+  text-transform: uppercase;
+  font-size: 12px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[type="text"].form-control:focus,
+input[type="text"].form-control:active,
+input[type="text"].form-control:visited {
+  border: none;
+}
+input[type="password"].form-control,
+input[type="text"].form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}

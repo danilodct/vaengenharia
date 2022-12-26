@@ -1,0 +1,33 @@
+.colLeft {
+  width: 250px;
+  background-color: var(--blue-600);
+  padding-top: 3rem;
+  border-radius: 0 0 0 0.5rem;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.linkMenu,
+.linkMenuAtivo {
+  padding: 13px;
+  padding-left: 20px;
+  color: #fff;
+  border-left: 7px solid var(--blue-600);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+.linkMenuAtivo,
+.linkMenu:hover {
+  border-left-color: var(--blue-400);
+  background-color: var(--blue-500);
+}
+
+.menuIcon {
+  padding-right: 18px;
+}

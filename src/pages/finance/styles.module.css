@@ -1,0 +1,54 @@
+.areaExtract {
+  display: flex;
+  justify-content: space-between;
+}
+.areaExpenses,
+.areaContributions {
+  width: 50%;
+}
+.areaContributions {
+  margin-left: 2rem;
+}
+
+.header,
+.headerExpenses,
+.headerContributions {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-600);
+  color: #547980;
+  font-size: 1rem;
+}
+
+.headerExpenses {
+  color: red;
+  border-color: red;
+}
+.headerContributions {
+  color: green;
+  border-color: green;
+}
+
+.cashIcon {
+  margin-right: 1rem;
+}
+
+.areaBts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.areaExpensesTable {
+  margin-top: 2rem;
+}
+
+.total {
+  display: flex;
+}
+
+.areaFilters {
+  margin-top: 1rem;
+}

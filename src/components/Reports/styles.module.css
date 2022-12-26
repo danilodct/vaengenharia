@@ -1,0 +1,19 @@
+.header {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-600);
+  color: var(--blue-600);
+}
+
+.reportIcon {
+  margin-right: 1rem;
+}
+
+.areaReport {
+  margin-top: 2rem;
+}
+
+.total {
+  display: flex;
+}
