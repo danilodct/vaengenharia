@@ -49,7 +49,7 @@ export default function Home() {
             <div className={styles.loginBody}>
               <div className={styles.formLine}>
                 <label htmlFor="login" className="label">
-                  Username:
+                  Login:
                 </label>
                 <Input
                   type="text"
