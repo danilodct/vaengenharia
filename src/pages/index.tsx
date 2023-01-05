@@ -44,7 +44,7 @@ export default function Home() {
       </Head>
       <div className={styles.containerLogin}>
         <div className={styles.loginArea}>
-          <div className={styles.loginHeader}>Login</div>
+          <div className={styles.loginHeader}>VA Engenharia</div>
           <form onSubmit={handleLogin}>
             <div className={styles.loginBody}>
               <div className={styles.formLine}>
