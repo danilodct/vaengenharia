@@ -17,7 +17,7 @@ export default class Util {
   static ERROR_BUY: string =
     "Ocorreu um erro ao tentar concluir a compra desta requisição";
 
-  static SERVER_BASE_URL = "http://vaeng.nodejsng10f05.kinghost.net:21019";
+  static SERVER_BASE_URL = "https://vaeng.nodejsng10f05.kinghost.net:21019";
   static cookie = "@nextauth.token";
   static DEV_MODE = true;
   static USER_TYPE_SEC: string = "SEC";
